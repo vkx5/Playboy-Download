@@ -191,7 +191,7 @@ function setHover(index){
 function selectValue(code){
     selectedCode = code;
     const prod = products[code];
-    selectedTextEl.textContent = prod ? `${prod.nome} (${code})` : 'Escolher';
+    selectedTextEl.textContent = prod ? `${prod.nome} (${code})` : 'Selecionar';
 
     enterBtn.setAttribute('data-product-code', code); 
 
@@ -346,4 +346,5 @@ function showNotify(msg, type="error", duration=3600) {
 (function init() {
     buildOptions();
     selectValue("");
+
 })();
