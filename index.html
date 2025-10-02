@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Central de Downloads</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="window" id="app-window" role="application">
+    <button id="logoutBtn" class="logout" title="Sair">Sair</button>
+
+    <div class="card-header" aria-hidden="true">
+      <img class="logo" src="https://blob.promisse.app/216240699819950080/5154919161_Sem_Titulo-2.png" alt="Logo Download">
+      <div>
+        <h1 class="title">Central de Downloads</h1>
+        <p class="subtitle login-msg">Escolha o produto que deseja baixar</p>
+      </div>
+    </div>
+
+    <div id="login-screen" aria-live="polite">
+      <h2>Selecione seu Produto</h2>
+
+      <div id="customSelect" class="custom-select" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+        <div class="custom-select__trigger" id="trigger">
+          <span class="selected-text" id="selectedText">Escolher</span>
+          <i class="fa-solid fa-chevron-down caret"></i>
+        </div>
+
+        <div class="custom-select__dropdown" id="dropdown" role="listbox" aria-label="Produtos">
+          <ul class="custom-select__list" id="optionsList">
+            </ul>
+        </div>
+      </div>
+
+      <button id="enterBtn" class="btn" type="button" data-product-code="">Continuar</button>
+      <p class="small">Selecione o produto desejado para ver o botão de download e o tutorial.</p>
+    </div>
+
+    <div id="content-screen" style="display:none;" aria-live="polite"></div>
+
+    <p class="legal">© 2025 PlayboyCheats — Todos os direitos reservados</p>
+
+    <div class="discord-link">
+      <a href="https://discord.gg/playboycheats" target="_blank" title="Entrar no Discord">
+        <i class="fa-brands fa-discord"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="update-float" id="updateFloat">
+    <button class="close-update" onclick="document.getElementById('updateFloat').style.display='none'">×</button>
+    <h3><i class="fa-solid fa-bullhorn"></i> Últimas Atualizações</h3>
+    <ul>
+      <li><strong>Todos produtos sem riscos de banimentos</strong> - 01/10/2025</li>
+    </ul>
+  </div>
+
+  <div class="modal" id="tutorialModal" aria-hidden="true">
+    <div class="modal-content">
+      <h2>Tutorial de Instalação</h2>
+      <ol>
+        <li>Baixe os drivers Microsoft DirectX</li>
+        <li>Baixe os drivers Microsoft Visual C++</li>
+        <li>Desative o Windows defender (Use o dControl)</li>
+        <li>Baixe o arquivo do seu produto</li>
+        <li>Extraia os arquivos com WinRAR (Senha: <span id="modalSenha">1</span>)</li>
+        <li>Execute o Loader.exe como administrador</li>
+      </ol>
+      <iframe id="tutorialVideo" src="" allowfullscreen></iframe>
+      <div class="two-btns">
+        <button class="btn outline" id="closeTutorial">⬅ Voltar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="notifyContainer" class="notify-container" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
