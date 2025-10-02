@@ -1,4 +1,3 @@
-
 const products = {
     "WZ-554": {
         nome: "Warzone Extreme",
@@ -89,7 +88,7 @@ const products = {
         video: "",
         status: "Seguro",
         ultimaAtualizacao: "01/10/2025"
-                                            },
+         },
         "OT-304": {
         nome: "Otimização",
         descricao: "Acesso exclusivo Otimização — instale e aproveite.",
@@ -100,6 +99,23 @@ const products = {
         ultimaAtualizacao: "01/10/2025"
     }
 };
+
+const recommendedItems = {
+    "Emuladores": [
+        { nome: "BlueStacks 5.22 (Tela Parada)", link: "https://www.mediafire.com/file/ctsfv4bxteaixv2/BlueStacks+5.22.51.rar/file", descricao: "Versão mais usada para estabilidade e FPS." },
+        { nome: "MSI App Player 5.12 (Normal)", link: "https://www.mediafire.com/file/b1b6qhwvia7ygj9/Msi+5.12.120.6303.exe/file", descricao: "Recomendado para PCs de baixo desempenho." }
+    ],
+    "FreeFire": [
+        { nome: "FreeFire MAX", link: "https://www.mediafire.com/file/4p40m6mkzoppuj0/FreeFire+MAX.rar/file", descricao: "Versão para telas paradas." },
+        { nome: "FreeFire V7A (APK)", link: "https://www.mediafire.com/file/2ntvkbcniv99z3u/Free+Fire+V7A.rar/file", descricao: "Versão oficial mais recente." }
+    ],
+    "Drivers e Ferramentas": [
+        { nome: "Microsoft DirectX", link: "https://www.mediafire.com/file/2lkw2z39quj9e8x/Microsoft+DirectX.rar/file", descricao: "Pacotes essenciais para rodar jogos e software." },
+        { nome: "Microsoft Visual C++", link: "https://www.mediafire.com/file/pgwkbwv17cln9br/Microsoft+Visual+C++.rar/file", descricao: "Pacotes essenciais para rodar jogos e software." },
+        { nome: "dControl (Senha: sordum)", link: "https://drive.usercontent.google.com/download?id=1jxmKjN820qP_cLZLgbeBi-aP5DUbROle&export=download&authuser=0", descricao: "Desativador de Windows Defender" }
+    ]
+};
+
 
 const customSelect = document.getElementById('customSelect');
 const trigger = document.getElementById('trigger');
@@ -115,6 +131,7 @@ const closeTutorial = document.getElementById('closeTutorial');
 const tutorialVideo = document.getElementById('tutorialVideo');
 const notifyContainer = document.getElementById('notifyContainer');
 const modalSenhaEl = document.getElementById('modalSenha'); 
+const recommendedBtn = document.getElementById('recommendedBtn'); 
 
 let selectedCode = "";        
 let openState = false;
@@ -269,6 +286,7 @@ function showProduct(produto) {
     
     const statusLower = produto.status.toLowerCase();
 
+
     if (statusLower === 'em risco') {
         downloadButtonClass += " btn-risk"; 
         downloadButtonText = '<i class="fa-solid fa-triangle-exclamation" style="margin-right:6px;"></i> Baixar (Em Risco)';
@@ -280,6 +298,13 @@ function showProduct(produto) {
     } else {
         showNotify(`Bem-vindo ao Download do ${produto.nome}`, "success");
     }
+    
+    let buttonsHTML = `
+        <div class="two-btns">
+            <a class="${downloadButtonClass}" href="${produto.link}" target="_blank">${downloadButtonText}</a>
+            <button class="btn outline" id="openTutorial"><i class="fa-solid fa-book" style="margin-right:6px;"></i> 📘 Ver Tutorial</button>
+        </div>
+    `;
 
     contentScreen.innerHTML = `
         <h2>${produto.nome}</h2>
@@ -288,19 +313,71 @@ function showProduct(produto) {
         <div class="info-line"><span><strong>Status do produto:</strong></span>${statusBadge(produto.status)}</div>
         <div class="info-line"><span><strong>Última atualização:</strong></span><span>${produto.ultimaAtualizacao}</span></div>
         <div class="info-line"><span><strong>Senha do arquivo:</strong></span><span>${produto.senha}</span></div>
-        <div class="two-btns">
-            <a class="${downloadButtonClass}" href="${produto.link}" target="_blank">${downloadButtonText}</a>
-            <button class="btn outline" id="openTutorial"><i class="fa-solid fa-book" style="margin-right:6px;"></i> 📘 Ver Tutorial</button>
-        </div>
+        ${buttonsHTML}
     `;
 
-    document.getElementById('openTutorial').addEventListener('click', () => {
-        tutorialVideo.src = produto.video; 
-        modalSenhaEl.textContent = produto.senha; 
-        modal.style.display = 'flex';
-        modal.setAttribute('aria-hidden','false');
-    });
+    const openTutorialBtn = document.getElementById('openTutorial');
+    if (openTutorialBtn) {
+        openTutorialBtn.addEventListener('click', () => {
+            tutorialVideo.src = produto.video; 
+            modalSenhaEl.textContent = produto.senha; 
+            modal.style.display = 'flex';
+            modal.setAttribute('aria-hidden','false');
+        });
+    }
 }
+
+function showRecommendedScreen() {
+    loginScreen.style.display = 'none';
+    contentScreen.style.display = 'block';
+    logoutBtn.classList.add('show');
+
+    const updatesPanel = document.getElementById("updateFloat");
+    if (updatesPanel) updatesPanel.style.display = "none";
+    
+    showNotify("Bem-vindo à Central de Drivers e FreeFire Recomendados.", "success");
+
+    let itemsHTML = '';
+
+    for (const category in recommendedItems) {
+        itemsHTML += `
+            <h3 class="category-title"><i class="fa-solid fa-list-check" style="margin-right: 8px;"></i>${category}</h3>
+            <div class="category-grid">
+        `;
+        
+        recommendedItems[category].forEach(item => {
+            itemsHTML += `
+                <div class="recommended-item">
+                    <p class="item-name"><strong>${item.nome}</strong></p>
+                    <p class="item-desc">${item.descricao}</p>
+                    <a class="btn small-btn" href="${item.link}" target="_blank">
+                        <i class="fa-solid fa-download"></i> Baixar
+                    </a>
+                </div>
+            `;
+        });
+
+        itemsHTML += `</div>`;
+    }
+
+    contentScreen.innerHTML = `
+        <h2>Drivers, Emuladores e FreeFire Recomendados</h2>
+        <p class="small" style="margin-bottom: 20px;">Utilize as opções abaixo para garantir a melhor performance e compatibilidade com nossos produtos.</p>
+        
+        ${itemsHTML}
+        
+        <p class="risk-notice" style="margin-top: 25px; font-size:0.85rem;">⚠️ Nota: Nenhum produto nesta seção é um "cheat". São apenas software de terceiros e versões do jogo recomendadas.</p>
+        <div class="info-line" style="margin-top: 15px;">
+            <span><strong>Status Geral:</strong></span>
+            ${statusBadge("Seguro")}
+        </div>
+        
+        <div class="two-btns" style="margin-top: 25px;">
+            <button class="btn outline" onclick="location.reload()">⬅ Voltar para Seleção</button>
+        </div>
+    `;
+}
+
 
 enterBtn.addEventListener('click', () => {
     const code = enterBtn.getAttribute('data-product-code'); 
@@ -311,6 +388,10 @@ enterBtn.addEventListener('click', () => {
     }
     showProduct(products[code]);
 });
+
+if (recommendedBtn) {
+    recommendedBtn.addEventListener('click', showRecommendedScreen);
+}
 
 logoutBtn.addEventListener('click', () => {
     location.reload();
