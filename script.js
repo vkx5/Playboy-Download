@@ -14,7 +14,7 @@ const products = {
         link: "https://www.mediafire.com/file/5bftmfsjvql70le/FreeFire_Extreme.rar/file",
         senha: "1",
         video: "",
-        status: "Seguro",
+        status: "Atualizando",
         ultimaAtualizacao: "01/10/2025"
     },
     "FF-577": {
@@ -23,7 +23,7 @@ const products = {
         link: "https://www.mediafire.com/file/o8bmoibuptpnf34/FreeFire_Premium.rar/file",
         senha: "1",
         video: "",
-        status: "Seguro",
+        status: "Atualizando",
         ultimaAtualizacao: "01/10/2025"
     },
         "FF-771": {
@@ -32,7 +32,7 @@ const products = {
         link: "https://www.mediafire.com/file/92vn6zzt7ke6g1j/FreeFire_Comum.rar/filee",
         senha: "1",
         video: "",
-        status: "Seguro",
+        status: "Atualizando",
         ultimaAtualizacao: "01/10/2025"
             },
         "FF-504": {
@@ -41,7 +41,7 @@ const products = {
         link: "https://www.mediafire.com/file/rnzk057ul2n3cjh/FreeFire_Legit.rar/file",
         senha: "1",
         video: "",
-        status: "Seguro",
+        status: "Atualizando",
         ultimaAtualizacao: "01/10/2025"
     },
         "FF-770": {
@@ -429,3 +429,4 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
