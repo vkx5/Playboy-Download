@@ -11,37 +11,37 @@ const products = {
         "FF-512": {
         nome: "FreeFire Extreme",
         descricao: "Acesso exclusivo Extreme — instale e aproveite.",
-        link: "https://www.mediafire.com/file/5bftmfsjvql70le/FreeFire_Extreme.rar/file",
+        link: "https://www.mediafire.com/file/pdmsmcnsdtmaxir/Extreme.rar/file",
         senha: "1",
         video: "",
-        status: "Atualizando",
+        status: "Seguro",
         ultimaAtualizacao: "01/10/2025"
     },
     "FF-577": {
         nome: "FreeFire Premium",
         descricao: "Acesso exclusivo Premium — instale e aproveite.",
-        link: "https://www.mediafire.com/file/o8bmoibuptpnf34/FreeFire_Premium.rar/file",
+        link: "https://www.mediafire.com/file/7bkr9kq4yxysxt9/Premium.rar/file",
         senha: "1",
         video: "",
-        status: "Atualizando",
+        status: "Seguro",
         ultimaAtualizacao: "01/10/2025"
     },
         "FF-771": {
         nome: "FreeFire Comum",
         descricao: "Acesso exclusivo Comum — instale e aproveite.",
-        link: "https://www.mediafire.com/file/92vn6zzt7ke6g1j/FreeFire_Comum.rar/filee",
+        link: "https://www.mediafire.com/file/rngfz9msux4iv5i/Comum.rar/file",
         senha: "1",
         video: "",
-        status: "Atualizando",
+        status: "Seguro",
         ultimaAtualizacao: "01/10/2025"
             },
         "FF-504": {
         nome: "FreeFire Legit",
         descricao: "Acesso exclusivo Legit — instale e aproveite.",
-        link: "https://www.mediafire.com/file/rnzk057ul2n3cjh/FreeFire_Legit.rar/file",
+        link: "https://www.mediafire.com/file/8ycxtk7o0gs5elk/legit.rar/file",
         senha: "1",
         video: "",
-        status: "Atualizando",
+        status: "Seguro",
         ultimaAtualizacao: "01/10/2025"
     },
         "FF-770": {
@@ -429,4 +429,5 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
