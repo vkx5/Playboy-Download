@@ -15,7 +15,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "07/10/2025"
     },
     "FF-577": {
         nome: "FreeFire Premium",
@@ -24,7 +24,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "07/10/2025"
     },
         "FF-771": {
         nome: "FreeFire Comum",
@@ -33,7 +33,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "07/10/2025"
             },
         "FF-504": {
         nome: "FreeFire Legit",
@@ -42,7 +42,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "07/10/2025"
     },
         "FF-770": {
         nome: "FreeFire Internal",
@@ -429,5 +429,6 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
