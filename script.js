@@ -103,6 +103,7 @@ const products = {
 const recommendedItems = {
     "Emuladores": [
         { nome: "BlueStacks 5.22 (Tela Parada)", link: "https://www.mediafire.com/file/ctsfv4bxteaixv2/BlueStacks+5.22.51.rar/file", descricao: "Versão mais usada para estabilidade e FPS." },
+        { nome: "BlueStacks 5.12 (Normal)", link: "https://www.mediafire.com/file/igicdzncf4wobia/Blue+5.12.120.6303.exe/file", descricao: "Recomendado para PCs de baixo desempenho." },
         { nome: "MSI App Player 5.12 (Normal)", link: "https://www.mediafire.com/file/b1b6qhwvia7ygj9/Msi+5.12.120.6303.exe/file", descricao: "Recomendado para PCs de baixo desempenho." }
     ],
     "FreeFire": [
@@ -110,8 +111,9 @@ const recommendedItems = {
         { nome: "FreeFire V7A (APK)", link: "https://www.mediafire.com/file/2ntvkbcniv99z3u/Free+Fire+V7A.rar/file", descricao: "Versão oficial mais recente." }
     ],
     "Drivers e Ferramentas": [
-        { nome: "Microsoft DirectX", link: "https://www.mediafire.com/file/2lkw2z39quj9e8x/Microsoft+DirectX.rar/file", descricao: "Pacotes essenciais para rodar jogos e software." },
-        { nome: "Microsoft Visual C++", link: "https://www.mediafire.com/file/pgwkbwv17cln9br/Microsoft+Visual+C++.rar/file", descricao: "Pacotes essenciais para rodar jogos e software." },
+        { nome: "Microsoft DirectX", link: "https://www.mediafire.com/file/er4abpkh5zeyvkv/Microsoft+DirectX.rar/file", descricao: "Pacotes essenciais para rodar jogos e software." },
+        { nome: "Microsoft Visual C++", link: "https://www.mediafire.com/file/6lxegofmiyge5ez/Microsoft+Visual+C++.rar/file", descricao: "Pacotes essenciais para rodar jogos e software." },
+        { nome: "Disable Hyper V", link: "https://www.mediafire.com/file/zllrr3lta5usvd6/DisableHyperV.exe/file", descricao: "Desative o Hyper-V em Recursos do Windows, desmarque as opções e reinicie o PC." },
         { nome: "dControl (Senha: sordum)", link: "https://drive.usercontent.google.com/download?id=1jxmKjN820qP_cLZLgbeBi-aP5DUbROle&export=download&authuser=0", descricao: "Desativador de Windows Defender" }
     ]
 };
@@ -429,6 +431,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
