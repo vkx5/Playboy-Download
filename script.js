@@ -6,7 +6,7 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "14/10/2025"
     },
         "FF-512": {
         nome: "FreeFire Extreme",
@@ -15,7 +15,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "07/10/2025"
+        ultimaAtualizacao: "14/10/2025"
     },
     "FF-577": {
         nome: "FreeFire Premium",
@@ -24,7 +24,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "07/10/2025"
+        ultimaAtualizacao: "14/10/2025"
     },
         "FF-771": {
         nome: "FreeFire Comum",
@@ -33,7 +33,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "07/10/2025"
+        ultimaAtualizacao: "14/10/2025"
             },
         "FF-504": {
         nome: "FreeFire Legit",
@@ -42,7 +42,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "07/10/2025"
+        ultimaAtualizacao: "14/10/2025"
     },
         "FF-770": {
         nome: "FreeFire Internal",
@@ -69,16 +69,16 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "14/10/2025"
                             },
         "VA-324": {
         nome: "Valorant AimColor",
         descricao: "Acesso exclusivo AimColor — instale e aproveite.",
-        link: "https://www.mediafire.com/file/hd9t7tkavvrnavb/Aim.rar/file",
+        link: "https://www.mediafire.com/file/bxxnad5iofd79qr/Valorant+AimColor.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "14/10/2025"
          },
         "VA-304": {
         nome: "Valorant Spoofer",
@@ -87,7 +87,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "14/10/2025"
          },
         "OT-304": {
         nome: "Otimização",
@@ -96,7 +96,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "14/10/2025"
     }
 };
 
@@ -431,6 +431,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
