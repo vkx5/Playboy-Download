@@ -60,7 +60,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "24/10/2025"
                     },
         "FF-354": {
         nome: "FreeFire Bypass Mobile",
@@ -431,6 +431,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
