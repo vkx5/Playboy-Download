@@ -11,7 +11,7 @@ const products = {
         "FF-512": {
         nome: "FreeFire Extreme",
         descricao: "Acesso exclusivo Extreme — instale e aproveite.",
-        link: "https://www.mediafire.com/file/pdmsmcnsdtmaxir/Extreme.rar/file",
+        link: "https://www.mediafire.com/file/b9fz3h73619emk7/Extreme.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -20,7 +20,7 @@ const products = {
     "FF-577": {
         nome: "FreeFire Premium",
         descricao: "Acesso exclusivo Premium — instale e aproveite.",
-        link: "https://www.mediafire.com/file/7bkr9kq4yxysxt9/Premium.rar/file",
+        link: "https://www.mediafire.com/file/5nhryl8dna14u2s/Premium.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -29,7 +29,7 @@ const products = {
         "FF-771": {
         nome: "FreeFire Comum",
         descricao: "Acesso exclusivo Comum — instale e aproveite.",
-        link: "https://www.mediafire.com/file/rngfz9msux4iv5i/Comum.rar/file",
+        link: "https://www.mediafire.com/file/b2hshmnzdfiv4ki/Comum.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -38,7 +38,7 @@ const products = {
         "FF-504": {
         nome: "FreeFire Legit",
         descricao: "Acesso exclusivo Legit — instale e aproveite.",
-        link: "https://www.mediafire.com/file/8ycxtk7o0gs5elk/legit.rar/file",
+        link: "https://www.mediafire.com/file/2uwg7bau9a1icij/legit.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -431,6 +431,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
