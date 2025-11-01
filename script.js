@@ -11,34 +11,34 @@ const products = {
         "FF-512": {
         nome: "FreeFire Extreme",
         descricao: "Acesso exclusivo Extreme — instale e aproveite.",
-        link: "https://www.mediafire.com/file/b9fz3h73619emk7/Extreme.rar/file",
+        link: "https://www.mediafire.com/file/ivv1ji1jwcme42x/Extreme.rar/file",
         senha: "1",
         video: "",
         status: "atualizando‎",
-        ultimaAtualizacao: "14/10/2025"
+        ultimaAtualizacao: "31/10/2025"
     },
     "FF-577": {
         nome: "FreeFire Premium",
         descricao: "Acesso exclusivo Premium — instale e aproveite.",
-        link: "https://www.mediafire.com/file/5nhryl8dna14u2s/Premium.rar/file",
+        link: "https://www.mediafire.com/file/1isqyl8onobun5b/Premium.rar/file",
         senha: "1",
         video: "",
         status: "atualizando‎",
-        ultimaAtualizacao: "14/10/2025"
+        ultimaAtualizacao: "31/10/2025"
     },
         "FF-771": {
         nome: "FreeFire Comum",
         descricao: "Acesso exclusivo Comum — instale e aproveite.",
-        link: "https://www.mediafire.com/file/b2hshmnzdfiv4ki/Comum.rar/file",
+        link: "https://www.mediafire.com/file/f9qpprqie5bvjou/Comum.rar/file",
         senha: "1",
         video: "",
         status: "atualizando‎",
-        ultimaAtualizacao: "14/10/2025"
+        ultimaAtualizacao: "31/10/2025"
             },
         "FF-504": {
         nome: "FreeFire Legit",
         descricao: "Acesso exclusivo Legit — instale e aproveite.",
-        link: "https://www.mediafire.com/file/2uwg7bau9a1icij/legit.rar/file",
+        link: "https://www.mediafire.com/file/ryn3fo5z9440nuk/legit.rar/file",
         senha: "1",
         video: "",
         status: "atualizando‎",
@@ -50,8 +50,8 @@ const products = {
         link: "https://www.mediafire.com/file/h72ukmjcv2d17qm/FreeFire+Internal+V1.rar/file",
         senha: "1",
         video: "",
-        status: "Seguro",
-        ultimaAtualizacao: "01/11/2025"
+        status: "atualizando‎",
+        ultimaAtualizacao: "31/10/2025"
             },
         "FF-400": {
         nome: "FreeFire Supreme",
@@ -69,7 +69,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/11/2025"
+        ultimaAtualizacao: "31/10/2025"
                             },
         "VA-324": {
         nome: "Valorant AimColor",
@@ -431,6 +431,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
