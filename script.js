@@ -14,7 +14,7 @@ const products = {
         link: "https://www.mediafire.com/file/b9fz3h73619emk7/Extreme.rar/file",
         senha: "1",
         video: "",
-        status: "Seguro",
+        status: "atualizando‎",
         ultimaAtualizacao: "14/10/2025"
     },
     "FF-577": {
@@ -23,7 +23,7 @@ const products = {
         link: "https://www.mediafire.com/file/5nhryl8dna14u2s/Premium.rar/file",
         senha: "1",
         video: "",
-        status: "Seguro",
+        status: "atualizando‎",
         ultimaAtualizacao: "14/10/2025"
     },
         "FF-771": {
@@ -32,7 +32,7 @@ const products = {
         link: "https://www.mediafire.com/file/b2hshmnzdfiv4ki/Comum.rar/file",
         senha: "1",
         video: "",
-        status: "Seguro",
+        status: "atualizando‎",
         ultimaAtualizacao: "14/10/2025"
             },
         "FF-504": {
@@ -41,7 +41,7 @@ const products = {
         link: "https://www.mediafire.com/file/2uwg7bau9a1icij/legit.rar/file",
         senha: "1",
         video: "",
-        status: "Seguro",
+        status: "atualizando‎",
         ultimaAtualizacao: "14/10/2025"
     },
         "FF-770": {
@@ -51,7 +51,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "01/10/2025"
+        ultimaAtualizacao: "01/11/2025"
             },
         "FF-400": {
         nome: "FreeFire Supreme",
@@ -60,7 +60,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "24/10/2025"
+        ultimaAtualizacao: "31/10/2025"
                     },
         "FF-354": {
         nome: "FreeFire Bypass Mobile",
@@ -69,7 +69,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "14/10/2025"
+        ultimaAtualizacao: "01/11/2025"
                             },
         "VA-324": {
         nome: "Valorant AimColor",
@@ -431,6 +431,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
