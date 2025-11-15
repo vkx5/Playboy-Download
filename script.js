@@ -107,8 +107,8 @@ const recommendedItems = {
         { nome: "MSI App Player 5.12 (Normal)", link: "https://www.mediafire.com/file/b1b6qhwvia7ygj9/Msi+5.12.120.6303.exe/file", descricao: "Recomendado para PCs de baixo desempenho." }
     ],
     "FreeFire": [
-        { nome: "FreeFire MAX", link: "https://www.mediafire.com/file/4p40m6mkzoppuj0/FreeFire+MAX.rar/file", descricao: "Versão para telas paradas." },
-        { nome: "FreeFire V7A (APK)", link: "https://d.apkpure.com/b/XAPK/com.dts.freefireth?versionCode=2019119027", descricao: "Versão oficial mais recente." }
+        { nome: "FreeFire MAX", link: "https://www.mediafire.com/file/jqx1nrhr9ai1i5v/FreeFire-X86.xapk/file", descricao: "Versão para telas paradas." },
+        { nome: "FreeFire V7A (APK)", link: "https://www.mediafire.com/file/croqdxzoznw7ej8/FreeFire-Normal.xapk/file", descricao: "Versão oficial mais recente." }
     ],
     "Drivers e Ferramentas": [
         { nome: "Microsoft DirectX", link: "https://www.mediafire.com/file/er4abpkh5zeyvkv/Microsoft+DirectX.rar/file", descricao: "Pacotes essenciais para rodar jogos e software." },
@@ -431,6 +431,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
