@@ -43,15 +43,6 @@ const products = {
         video: "",
         status: "atualizando‎",
         ultimaAtualizacao: "14/10/2025"
-    },
-        "FF-770": {
-        nome: "FreeFire Internal",
-        descricao: "Acesso exclusivo Internal — instale e aproveite.",
-        link: "https://www.mediafire.com/file/h72ukmjcv2d17qm/FreeFire+Internal+V1.rar/file",
-        senha: "1",
-        video: "",
-        status: "atualizando‎",
-        ultimaAtualizacao: "31/10/2025"
             },
         "FF-400": {
         nome: "FreeFire Supreme",
@@ -65,11 +56,11 @@ const products = {
         "FF-354": {
         nome: "FreeFire Bypass Mobile",
         descricao: "Acesso exclusivo Bypass Mobile — instale e aproveite.",
-        link: "https://www.mediafire.com/file/ao97dkorjfgnyta/BypassMobile.rar/file",
+        link: "https://www.mediafire.com/file/hde5yubcgfm2vzz/Playboy+BypassMob.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "31/10/2025"
+        ultimaAtualizacao: "15/11/2025"
                             },
         "VA-324": {
         nome: "Valorant AimColor",
@@ -84,15 +75,6 @@ const products = {
         nome: "Valorant Spoofer",
         descricao: "Acesso exclusivo Spoofer — instale e aproveite.",
         link: "https://www.mediafire.com/file/ag2esf4zihsjvvn/Spoof.rar/file",
-        senha: "1",
-        video: "",
-        status: "Seguro",
-        ultimaAtualizacao: "14/10/2025"
-         },
-        "OT-304": {
-        nome: "Otimização",
-        descricao: "Acesso exclusivo Otimização — instale e aproveite.",
-        link: "https://www.mediafire.com/file/sm7jhuavvfpimqc/Optimizer.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -431,6 +413,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
