@@ -1,12 +1,30 @@
 const products = {
     "WZ-554": {
-        nome: "Warzone Extreme",
+        nome: "Warzone External",
         descricao: "Acesso exclusivo Warzone — instale e aproveite.",
-        link: "https://www.mediafire.com/file/v81m3092ifkpcub/Warzone.rar/file",
+        link: "https://www.mediafire.com/file/rdvart54z1wl3v9/Warzone+External.rar/file",
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "14/10/2025"
+        ultimaAtualizacao: "16/11/2025"
+    },
+        "CS-241": {
+        nome: "CS:GO External",
+        descricao: "Acesso exclusivo CS:GO — instale e aproveite.",
+        link: "https://www.mediafire.com/file/li0covusc482nwh/Counter-Strike+2+External.rar/file",
+        senha: "1",
+        video: "", 
+        status: "Seguro",
+        ultimaAtualizacao: "16/11/2025"
+    },
+        "BD-714": {
+        nome: "Blood Strike External",
+        descricao: "Acesso exclusivo Blood Strike — instale e aproveite.",
+        link: "https://www.mediafire.com/file/3g3mkmdqqc7btfn/Blood+Strike+External.rar/file",
+        senha: "1",
+        video: "", 
+        status: "Seguro",
+        ultimaAtualizacao: "16/11/2025"
     },
         "FF-512": {
         nome: "FreeFire Extreme",
@@ -14,7 +32,7 @@ const products = {
         link: "https://www.mediafire.com/file/ivv1ji1jwcme42x/Extreme.rar/file",
         senha: "1",
         video: "",
-        status: "atualizando‎",
+        status: "atualizando",
         ultimaAtualizacao: "31/10/2025"
     },
     "FF-577": {
@@ -23,7 +41,7 @@ const products = {
         link: "https://www.mediafire.com/file/1isqyl8onobun5b/Premium.rar/file",
         senha: "1",
         video: "",
-        status: "atualizando‎",
+        status: "atualizando",
         ultimaAtualizacao: "31/10/2025"
     },
         "FF-771": {
@@ -32,7 +50,7 @@ const products = {
         link: "https://www.mediafire.com/file/f9qpprqie5bvjou/Comum.rar/file",
         senha: "1",
         video: "",
-        status: "atualizando‎",
+        status: "atualizando",
         ultimaAtualizacao: "31/10/2025"
             },
         "FF-504": {
@@ -41,7 +59,7 @@ const products = {
         link: "https://www.mediafire.com/file/ryn3fo5z9440nuk/legit.rar/file",
         senha: "1",
         video: "",
-        status: "atualizando‎",
+        status: "atualizando",
         ultimaAtualizacao: "14/10/2025"
             },
         "FF-400": {
@@ -60,7 +78,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "15/11/2025"
+        ultimaAtualizacao: "16/11/2025"
                             },
         "VA-324": {
         nome: "Valorant AimColor",
@@ -69,16 +87,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "14/10/2025"
-         },
-        "VA-304": {
-        nome: "Valorant Spoofer",
-        descricao: "Acesso exclusivo Spoofer — instale e aproveite.",
-        link: "https://www.mediafire.com/file/ag2esf4zihsjvvn/Spoof.rar/file",
-        senha: "1",
-        video: "",
-        status: "Seguro",
-        ultimaAtualizacao: "14/10/2025"
+        ultimaAtualizacao: "16/11/2025"
     }
 };
 
@@ -413,6 +422,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
