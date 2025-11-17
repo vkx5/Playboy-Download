@@ -6,7 +6,7 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "16/11/2025"
+        ultimaAtualizacao: "17/11/2025"
     },
         "CS-241": {
         nome: "CS:GO External",
@@ -15,7 +15,7 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "16/11/2025"
+        ultimaAtualizacao: "17/11/2025"
     },
         "BD-714": {
         nome: "Blood Strike External",
@@ -24,7 +24,25 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "16/11/2025"
+        ultimaAtualizacao: "17/11/2025"
+    },
+       "FT-274": {
+        nome: "Fortnite  External",
+        descricao: "Acesso exclusivo Fortnite — instale e aproveite.",
+        link: "https://www.mediafire.com/file/mi9it4altzp3nhy/Fortnite+External.rar/file",
+        senha: "1",
+        video: "", 
+        status: "Seguro",
+        ultimaAtualizacao: "17/11/2025"
+       },
+        "VA-324": {
+        nome: "Valorant AimColor",
+        descricao: "Acesso exclusivo AimColor — instale e aproveite.",
+        link: "https://www.mediafire.com/file/bxxnad5iofd79qr/Valorant+AimColor.rar/file",
+        senha: "1",
+        video: "",
+        status: "Seguro",
+        ultimaAtualizacao: "17/11/2025"
     },
         "FF-512": {
         nome: "FreeFire Extreme",
@@ -32,7 +50,7 @@ const products = {
         link: "https://www.mediafire.com/file/ivv1ji1jwcme42x/Extreme.rar/file",
         senha: "1",
         video: "",
-        status: "atualizando",
+        status: "Seguro",
         ultimaAtualizacao: "31/10/2025"
     },
     "FF-577": {
@@ -41,7 +59,7 @@ const products = {
         link: "https://www.mediafire.com/file/1isqyl8onobun5b/Premium.rar/file",
         senha: "1",
         video: "",
-        status: "atualizando",
+        status: "Seguro",
         ultimaAtualizacao: "31/10/2025"
     },
         "FF-771": {
@@ -50,7 +68,7 @@ const products = {
         link: "https://www.mediafire.com/file/f9qpprqie5bvjou/Comum.rar/file",
         senha: "1",
         video: "",
-        status: "atualizando",
+        status: "Seguro",
         ultimaAtualizacao: "31/10/2025"
             },
         "FF-504": {
@@ -59,7 +77,7 @@ const products = {
         link: "https://www.mediafire.com/file/ryn3fo5z9440nuk/legit.rar/file",
         senha: "1",
         video: "",
-        status: "atualizando",
+        status: "Seguro",
         ultimaAtualizacao: "14/10/2025"
             },
         "FF-400": {
@@ -69,7 +87,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "14/11/2025"
+        ultimaAtualizacao: "17/11/2025"
                     },
         "FF-354": {
         nome: "FreeFire Bypass Mobile",
@@ -78,16 +96,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "16/11/2025"
-                            },
-        "VA-324": {
-        nome: "Valorant AimColor",
-        descricao: "Acesso exclusivo AimColor — instale e aproveite.",
-        link: "https://www.mediafire.com/file/bxxnad5iofd79qr/Valorant+AimColor.rar/file",
-        senha: "1",
-        video: "",
-        status: "Seguro",
-        ultimaAtualizacao: "16/11/2025"
+        ultimaAtualizacao: "17/11/2025"
     }
 };
 
@@ -158,7 +167,6 @@ function buildOptions(){
     }
 }
 
-/** Abre o dropdown. */
 function openDropdown(){
     customSelect.classList.add('open');
     customSelect.setAttribute('aria-expanded','true');
@@ -422,6 +430,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
