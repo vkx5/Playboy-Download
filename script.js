@@ -6,7 +6,7 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "17/11/2025"
+        ultimaAtualizacao: "24/11/2025"
     },
         "CS-241": {
         nome: "CS:GO External",
@@ -15,7 +15,7 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "17/11/2025"
+        ultimaAtualizacao: "24/11/2025"
     },
         "BD-714": {
         nome: "Blood Strike External",
@@ -24,7 +24,7 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "21/11/2025"
+        ultimaAtualizacao: "24/11/2025"
     },
        "FT-274": {
         nome: "Fortnite  External",
@@ -42,7 +42,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "21/11/2025"
+        ultimaAtualizacao: "24/11/2025"
     },
         "VA-321": {
         nome: "Valorant External",
@@ -110,11 +110,11 @@ const products = {
         "FF-354": {
         nome: "FreeFire Bypass Mobile",
         descricao: "Acesso exclusivo Bypass Mobile — instale e aproveite.",
-        link: "https://www.mediafire.com/file/hde5yubcgfm2vzz/Playboy+BypassMob.rar/file",
+        link: "https://www.mediafire.com/file/twrqm8z11mx0wez/Playboy+BypassMob.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "17/11/2025"
+        ultimaAtualizacao: "24/11/2025"
     }
 };
 
@@ -448,6 +448,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
