@@ -101,7 +101,7 @@ const products = {
         "FF-400": {
         nome: "FreeFire Supreme",
         descricao: "Acesso exclusivo Supreme — instale e aproveite.",
-        link: "https://www.mediafire.com/file/larq3crrwwcovjf/Supreme.rar/file",
+        link: "https://www.mediafire.com/file/u4u8gr77e3stws7/Supreme.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -448,6 +448,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
