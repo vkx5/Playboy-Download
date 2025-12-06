@@ -38,29 +38,29 @@ const products = {
         "VA-324": {
         nome: "Valorant AimColor",
         descricao: "Acesso exclusivo AimColor — instale e aproveite.",
-        link: "https://vgc.squareweb.app/",
+        link: "https://www.mediafire.com/file/3vzm0o71r91nex7/Val+Color.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "24/11/2025"
+        ultimaAtualizacao: "06/12/2025"
     },
         "VA-321": {
         nome: "Valorant External",
         descricao: "Acesso exclusivo Valorant External — instale e aproveite.",
-        link: "https://vgc.squareweb.app/",
+        link: "https://www.mediafire.com/file/a64pfgou4ocmktb/Val+Memory.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "21/11/2025"
+        ultimaAtualizacao: "06/12/2025"
     },
         "VA-325": {
         nome: "Valorant OnlyEsp",
         descricao: "Acesso exclusivo OnlyEsp — instale e aproveite.",
-        link: "https://vgc.squareweb.app/",
+        link: "https://www.mediafire.com/file/rxd7y380x5xg5z2/Val+Onlyl.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "21/11/2025"
+        ultimaAtualizacao: "06/12/2025"
     },
         "FF-512": {
         nome: "FreeFire Extreme",
@@ -448,6 +448,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
