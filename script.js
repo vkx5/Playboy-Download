@@ -101,11 +101,11 @@ const products = {
         "FF-400": {
         nome: "FreeFire Supreme",
         descricao: "Acesso exclusivo Supreme — instale e aproveite.",
-        link: "https://www.mediafire.com/file/u4u8gr77e3stws7/Supreme.rar/file",
+        link: "https://www.mediafire.com/file/fy7tcww1g5jheqr/Supreme.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "17/11/2025"
+        ultimaAtualizacao: "06/12/2025"
                     },
         "FF-354": {
         nome: "FreeFire Bypass Mobile",
@@ -448,6 +448,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
