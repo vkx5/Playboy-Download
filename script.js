@@ -38,7 +38,7 @@ const products = {
         "VA-324": {
         nome: "Valorant AimColor",
         descricao: "Acesso exclusivo AimColor — instale e aproveite.",
-        link: "https://www.mediafire.com/file/p59coaaxfu430ez/Val+Color.rar/file",
+        link: "https://www.mediafire.com/file/st1wuctymlnye6v/Val+Color.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -47,7 +47,7 @@ const products = {
         "VA-321": {
         nome: "Valorant External",
         descricao: "Acesso exclusivo Valorant External — instale e aproveite.",
-        link: "https://www.mediafire.com/file/x6ty2dusd9w2rbu/Val+Memory.rar/file",
+        link: "https://www.mediafire.com/file/lnucfyo604in66r/Val+External.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -56,7 +56,7 @@ const products = {
         "VA-325": {
         nome: "Valorant OnlyEsp",
         descricao: "Acesso exclusivo OnlyEsp — instale e aproveite.",
-        link: "https://www.mediafire.com/file/vsjofykdhx42nxq/Val+Onlyl.rar/file",
+        link: "https://www.mediafire.com/file/dkkbm27n7uz2t6u/Val+Onlyl.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -448,6 +448,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
