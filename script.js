@@ -2,11 +2,11 @@ const products = {
     "WZ-554": {
         nome: "Warzone External",
         descricao: "Acesso exclusivo Warzone — instale e aproveite.",
-        link: "https://www.mediafire.com/file/rdvart54z1wl3v9/Warzone+External.rar/file",
+        link: "https://www.mediafire.com/file/c8tb4k7opi8yi79/Warzone+External.rar/file",
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "24/11/2025"
+        ultimaAtualizacao: "03/01/2026"
     },
         "CS-241": {
         nome: "CS:GO External",
@@ -15,7 +15,7 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "24/11/2025"
+        ultimaAtualizacao: "03/01/2026"
     },
         "BD-714": {
         nome: "Blood Strike External",
@@ -105,7 +105,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "06/12/2025"
+        ultimaAtualizacao: "03/01/2026"
                     },
         "FF-354": {
         nome: "FreeFire Bypass Mobile",
@@ -114,7 +114,7 @@ const products = {
         senha: "1",
         video: "",
         status: "Seguro",
-        ultimaAtualizacao: "24/11/2025"
+        ultimaAtualizacao: "03/01/2026"
     }
 };
 
@@ -448,6 +448,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
