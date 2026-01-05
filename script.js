@@ -8,6 +8,15 @@ const products = {
         status: "Seguro",
         ultimaAtualizacao: "03/01/2026"
     },
+        "FM-264": {
+        nome: "FiveM External",
+        descricao: "Acesso exclusivo FiveM — instale e aproveite.",
+        link: "https://www.mediafire.com/file/ndtr0kh45vru5mq/FiveM+External.rar/file",
+        senha: "1",
+        video: "", 
+        status: "Seguro",
+        ultimaAtualizacao: "05/01/2026"
+    },
         "CS-241": {
         nome: "CS:GO External",
         descricao: "Acesso exclusivo CS:GO — instale e aproveite.",
@@ -448,6 +457,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
