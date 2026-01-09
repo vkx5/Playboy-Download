@@ -11,11 +11,11 @@ const products = {
         "FM-264": {
         nome: "FiveM External",
         descricao: "Acesso exclusivo FiveM — instale e aproveite.",
-        link: "https://www.mediafire.com/file/ndtr0kh45vru5mq/FiveM+External.rar/file",
+        link: "https://www.mediafire.com/file/bme4hnmpqcar0wr/FiveM+External.rar/file",
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "05/01/2026"
+        ultimaAtualizacao: "09/01/2026"
     },
         "CS-241": {
         nome: "CS:GO External",
@@ -24,7 +24,7 @@ const products = {
         senha: "1",
         video: "", 
         status: "Seguro",
-        ultimaAtualizacao: "03/01/2026"
+        ultimaAtualizacao: "09/01/2026"
     },
         "BD-714": {
         nome: "Blood Strike External",
@@ -48,24 +48,6 @@ const products = {
         nome: "Valorant AimColor",
         descricao: "Acesso exclusivo AimColor — instale e aproveite.",
         link: "https://www.mediafire.com/file/p3mc4djz7z14cby/Val+Color.rar/file",
-        senha: "1",
-        video: "",
-        status: "Seguro",
-        ultimaAtualizacao: "10/12/2025"
-    },
-        "VA-321": {
-        nome: "Valorant External",
-        descricao: "Acesso exclusivo Valorant External — instale e aproveite.",
-        link: "https://www.mediafire.com/file/79n36dnpofpicm7/Val+External.rar/file",
-        senha: "1",
-        video: "",
-        status: "Seguro",
-        ultimaAtualizacao: "10/12/2025"
-    },
-        "VA-325": {
-        nome: "Valorant OnlyEsp",
-        descricao: "Acesso exclusivo OnlyEsp — instale e aproveite.",
-        link: "https://www.mediafire.com/file/z89musk5tv8j047/Val+Onlyl.rar/file",
         senha: "1",
         video: "",
         status: "Seguro",
@@ -457,6 +439,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
