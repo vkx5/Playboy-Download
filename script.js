@@ -47,11 +47,11 @@ const products = {
         "VA-324": {
         nome: "Valorant AimColor",
         descricao: "Acesso exclusivo AimColor — instale e aproveite.",
-        link: "https://www.mediafire.com/file/p3mc4djz7z14cby/Val+Color.rar/file",
-        senha: "1",
-        video: "",
+        link: "https://vgc.flowware.pro/",
+        senha: "123",
+        video: "https://vgc.flowware.pro/tutoriais/aimcolor",
         status: "Seguro",
-        ultimaAtualizacao: "10/12/2025"
+        ultimaAtualizacao: "10/01/2026"
     },
         "FF-512": {
         nome: "FreeFire Extreme",
@@ -439,6 +439,7 @@ function showNotify(msg, type="error", duration=3600) {
     selectValue("");
 
 })();
+
 
 
 
